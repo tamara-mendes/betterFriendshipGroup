@@ -3,16 +3,16 @@ public class Util {
 	public static void throwError(int type) {
 		switch (type) {
 			case 0:
-		  //	System.out.println("Arquivo invalido");
+				System.out.println("Arquivo invalido");
 				break;
 			case 1:
-			//	System.out.println("Arquivo nao encontrado");
+				System.out.println("Arquivo nao encontrado");
 				break;
 			case 2:
-			//	System.out.println("Valores invalidos");
+				System.out.println("Valores invalidos");
 				break;
 			default:
-			//	System.out.println("Ocorreu um erro");
+				System.out.println("Ocorreu um erro");
 				break;
 		}
 		System.out.println(-1000);
